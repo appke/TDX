@@ -1,0 +1,14 @@
+最近4天的稳步上升
+5,0
+N:5.00
+Source Code:
+D1:=IF(N==5,6,IF(N==10,7,IF(N==15,8,IF(N==20,9,9))));
+
+BK5:=EXTDATA_USER(D1,0);
+
+A1:=BK5>REF(BK5,1);
+A2:=REF(BK5,1)>REF(BK5,2);
+A3:=REF(BK5,2)>REF(BK5,3);
+B1:=BK5>800; {当天RPS需要大于80，自己定义吧}
+
+A1 && A2 && A3 && B1 ;

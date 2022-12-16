@@ -1,0 +1,5 @@
+
+5,0
+M:250.00
+Source Code:
+CLOSE/HHV(HIGH,M)>0.9;

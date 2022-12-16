@@ -1,0 +1,14 @@
+
+5,0
+
+Source Code:
+Z:=EXTDATA_USER(3,0);{50天的}
+RPS50:=Z/10;
+D:=IF(RPS50<=85,0,1);{RPS50大于85}
+A:=C/MA(C,250)>1;{站上年线}
+NH:=IF(H<HHV(H,50),0,1);
+B:=COUNT(NH,30);{一月内曾创50日新高}
+NN:=IF(C>MA(C,250),1,0);
+AA:=COUNT(NN,30);
+AB:=HIGH/HHV(HIGH,120)>0.9;{最高价距离120日内的最高价不到10%}
+A AND B AND D AND AA>2 AND AA<30 AND AB;{选出刚刚站上年线小于30天，大于2天的};

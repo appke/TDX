@@ -1,0 +1,5 @@
+
+5,0
+N:250.00
+Source Code:
+BARSCOUNT(C)>N;
