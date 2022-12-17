@@ -7,4 +7,4 @@
 - 同步与分享～导出为文本文件
 
 ### 大盘信号
-.[](./screenpics/dpxh-dzt.png)
+![](screenpics/dpxh-dzt.png)
