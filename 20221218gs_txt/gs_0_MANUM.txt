@@ -1,0 +1,10 @@
+
+15,2
+
+Source Code:
+TOTAL:INSUM('全部A股','MACNT',1,0);
+NUM50:INSUM('全部A股','MACNT',2,0);
+NUM200:INSUM('全部A股','MACNT',3,0);
+
+NH:INSUM('全部A股','MACNT',4,0);
+NL:INSUM('全部A股','MACNT',5,0);

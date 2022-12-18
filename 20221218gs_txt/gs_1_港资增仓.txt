@@ -1,0 +1,12 @@
+且接近一年新高
+5,0
+N:0.50,M:0.50,D:30.00
+Source Code:
+占流通比增加1%:=((GPJYVALUE(6,1,1)/FINANCE(7))*100-REF((GPJYVALUE(6,1,1)/FINANCE(7))*100,D))>=N;
+
+市值增加1个亿:=GPJYVALUE(6,1,1)*C-REF((GPJYVALUE(6,1,1)*C),D)>M*100000000;
+
+AA1:= 市值增加1个亿 OR 占流通比增加1%;
+AA2:=CLOSE/HHV(HIGH,250)>0.9;
+
+AA1 AND AA2;

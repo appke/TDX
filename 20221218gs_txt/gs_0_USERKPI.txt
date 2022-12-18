@@ -1,0 +1,6 @@
+
+15,2
+
+Source Code:
+{VALUE1：SAR值，用于大盘信号1}
+SAR1:SAR(4,2,20),NODRAW;

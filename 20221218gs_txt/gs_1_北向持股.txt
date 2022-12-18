@@ -1,0 +1,5 @@
+ÈýÇ§Íò
+5,0
+
+Source Code:
+GPJYVALUE(6,1,1)*C>30000000;

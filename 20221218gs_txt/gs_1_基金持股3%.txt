@@ -1,0 +1,5 @@
+
+5,0
+
+Source Code:
+FINVALUE(255)/FINVALUE(239)>=3/100;
