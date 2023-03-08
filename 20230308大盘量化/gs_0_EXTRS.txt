@@ -1,0 +1,5 @@
+
+15,2
+N:250.00
+Source Code:
+EXTRS:(C-REF(C,N))/REF(C,N); {用来计算股票涨跌幅};

@@ -1,0 +1,5 @@
+强势股选股公式
+5,0
+M:250.00
+Source Code:
+XG:BARSLASTCOUNT(CLOSE/HHV(HIGH,M)>=0.9)=1;
