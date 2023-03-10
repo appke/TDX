@@ -1,0 +1,16 @@
+结构紧凑的要求
+15,2
+
+Source Code:
+{近4周涨:REF(SUM((C/REF(C,1)*100-100),4),0);}
+{近4周涨2:SUM((C/REF(C,1)*100-100),4) NODRAW;}
+
+{周K线收盘价落差越小越好，窄幅整理的时间越长越好}
+{近2周涨:(C/REF(C,1))*100-100 COLORSTICK;}
+近2周涨:(C/REF(C,1))*100-100 NODRAW;
+STICKLINE(近2周涨>=0,近2周涨,0,1,0),COLORRED;
+STICKLINE(近2周涨<0,近2周涨,0,1,0),COLORGREEN;
+{IF(近4周涨>0,近4周涨,DRAWNULL),LINETHICK3,COLORRED;}
+
+近3周涨:(C/REF(C,2))*100-100 COLORBLUE NODRAW; 
+近4周涨:(C/REF(C,3))*100-100 NODRAW; 
